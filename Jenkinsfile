@@ -1,10 +1,10 @@
 pipeline {
-agent any
-stages {
-stage('Main') {
-steps {
-  echo "Main... branch ${BUILD_NUMBER}"
-}
-}
-}
+  agent any
+  stages {
+    stage('developer') {
+      steps {
+        echo "developer... branch"
+      }
+    }
+  }
 }
