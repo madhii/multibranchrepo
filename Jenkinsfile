@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('developer') {
+    stage('feature') {
       steps {
-        echo "developer... branch"
+        echo "feature... branch"
       }
     }
   }
