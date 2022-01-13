@@ -1,9 +1,9 @@
 pipeline {
 agent any
 stages {
-stage('Main') {
+stage('Test') {
 steps {
-  echo "Main... branch ${BUILD_NUMBER}"
+  echo "Test... branch ${BUILD_NUMBER}"
 }
 }
 }
